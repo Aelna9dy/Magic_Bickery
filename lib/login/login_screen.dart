@@ -1,5 +1,5 @@
 import 'package:magic_bakery/all_import.dart';
-import 'package:magic_bakery/survey/survey.dart';
+import 'package:magic_bakery/survey/survey_2.dart';
 
 class LoginPage extends StatefulWidget {
   static const String routeName = "Login";
@@ -129,7 +129,7 @@ class _LoginPageState extends State<LoginPage> {
         "User Logged in  Successfully",
         posActionName: "ok",
         posAction: () {
-          Navigator.pushReplacementNamed(context, SurveyPage.routeName);
+          Navigator.pushReplacementNamed(context, SurveyPage2.routeName);
         },
         dismissible: false,
       );

@@ -1,6 +1,6 @@
 import 'package:magic_bakery/all_import.dart';
 import  'package:magic_bakery/database/model/user_model.dart' as MyUser;
-import 'package:magic_bakery/survey/survey.dart';
+import 'package:magic_bakery/survey/survey_2.dart';
 
 class RegisterScreen extends StatefulWidget {
   static const String routeName = "Register";
@@ -156,7 +156,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         "User Register Successfully",
         posActionName: "ok",
         posAction: () {
-          Navigator.pushReplacementNamed(context, SurveyPage.routeName);
+          Navigator.pushReplacementNamed(context, SurveyPage2.routeName);
         },
         dismissible: false,
       );

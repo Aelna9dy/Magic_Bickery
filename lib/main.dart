@@ -1,6 +1,6 @@
 import 'package:magic_bakery/admin/admin.dart';
 import 'package:magic_bakery/all_import.dart';
-import 'package:magic_bakery/survey/survey.dart';
+import 'package:magic_bakery/survey/survey_2.dart';
 
 
 
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         RegisterScreen.routeName: (context) => RegisterScreen(),
         HomeScreen.routeName :(context) => HomeScreen(),
         Admin.routeName :(context) => Admin(),
-        SurveyPage.routeName:(context) => SurveyPage(),
+        SurveyPage2.routeName:(context) => SurveyPage2(),
       },
       initialRoute:SplashPage.routeName,
     );
